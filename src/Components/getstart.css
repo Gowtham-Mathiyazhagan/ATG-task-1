@@ -1,0 +1,57 @@
+.getstart-component {
+  height: 35rem;
+  background-color: #f4f6f7;
+  max-width: 75rem;
+}
+.getstart-component section {
+  height: 100%;
+  /* width: 63rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+}
+.getstart-component .title-btn {
+  align-self: flex-start;
+}
+.getstart-component section .title-btn h4 {
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+.getstart-component section .title-btn h4 span:first-child {
+  color: #8064a2;
+}
+.getstart-component section .title-btn h4 span:last-child {
+  color: #87ceeb;
+}
+.getstart-component section .title-btn button {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #8064a2;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+.getstart-component section img {
+  height: 19rem;
+  max-width: 55rem;
+}
+@media only screen and (max-width: 680px) {
+  .getstart-component {
+    max-width: 65rem;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .getstart-component {
+    width: 50rem;
+    padding: 50px;
+  }
+  .getstart-component section img {
+    height: 19rem;
+    max-width: 50rem;
+  }
+}
